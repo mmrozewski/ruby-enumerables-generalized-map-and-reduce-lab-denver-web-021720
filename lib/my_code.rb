@@ -1,10 +1,10 @@
 # Your Code Here
 def map(array)
-  array = []
+  noo_array = []
   i = 0
-  while i < array.length
-    array << (yield(array[i]))
+  while i < noo_array.length
+    noo_array << (yield(noo_array[i]))
     i += 1
   end
-  array
+  noo_array
 end
