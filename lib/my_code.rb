@@ -18,6 +18,7 @@ def reduce(array, sv=nil)
     i = 1 
   end
   while i < array.length
+    sum = 
 
 
 end
