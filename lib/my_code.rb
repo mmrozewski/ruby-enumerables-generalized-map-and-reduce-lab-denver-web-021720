@@ -9,4 +9,4 @@ def map(array)
   noo_array
 end
 
-def 
+def reduce
