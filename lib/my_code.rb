@@ -2,8 +2,8 @@
 def map(array)
   noo_array = []
   i = 0
-  while i < noo_array.length
-    noo_array << (yield(noo_array[i]))
+  while i < array.length
+    noo_array << (yield(array[i]))
     i += 1
   end
   noo_array
