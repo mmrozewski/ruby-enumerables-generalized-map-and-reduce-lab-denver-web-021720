@@ -8,3 +8,5 @@ def map(array)
   end
   noo_array
 end
+
+def 
